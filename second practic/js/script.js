@@ -25,6 +25,40 @@ for (let i = 0; i <= numberOfFilms; i++) {
     }
 }
 
+// let i = 0;
+// do {
+//     const nameFilm = prompt("What was the last film wich you saw?", "");
+//     const filmRate = prompt("How much do you rate it?", "");
+    
+//     if (nameFilm != null && 
+//     filmRate != null && 
+//     nameFilm != "" && 
+//     filmRate != "" && 
+//     nameFilm.length < 50) {
+//     personalMovieDB.movies[nameFilm] = filmRate;
+// }   else {
+//     i--;
+// }
+// i++;
+// } while (i < numberOfFilms);
+
+// let i = 0;
+// while (i < numberOfFilms) {
+//     const nameFilm = prompt("What was the last film wich you saw?", "");
+//     const filmRate = prompt("How much do you rate it?", "");
+    
+//     if (nameFilm != null && 
+//     filmRate != null && 
+//     nameFilm != "" && 
+//     filmRate != "" && 
+//     nameFilm.length < 50) {
+//     personalMovieDB.movies[nameFilm] = filmRate;
+// }   else {
+//     i--;
+// }
+// i++;
+// }
+
 if (personalMovieDB.count < 10) {
     console.log("You saw some films");
 } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
