@@ -19,3 +19,19 @@ personalMovieDB.movies[nameFilm1] = ocenkaFilm1;
 personalMovieDB.movies[nameFilm2] = ocenkaFilm2;
 
 console.log(personalMovieDB);
+
+// let fruits = [
+//     ['apple', 'pinapple', 'orange', 'banana'],
+//     [200, 500, 700, 900],
+//     ['yelow', 'red', 'orange', 'yelow'],
+// ];
+
+// fruits.forEach((name, price, color) => {
+//     fruits.innerHTML +=  
+//     `<table>
+//     <tr>
+//      <th style=" background-color: ${color}">${name}</th>
+//      <th style=" background-color: ${color}">${price}</th>
+//     </tr>
+//       </table>`;
+// });
