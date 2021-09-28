@@ -1,7 +1,6 @@
 {
   "name": "food",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +9,12 @@
   "license": "ISC",
   "devDependencies": {
     "json-server": "^0.16.3",
-    "webpack": "^5.54.0",
+    "webpack": "^5.55.0",
     "webpack-cli": "^4.8.0"
-  }
+  },
+  "dependencies": {
+    "save-dev": "0.0.1-security"
+  },
+  "keywords": [],
+  "description": ""
 }
