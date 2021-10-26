@@ -1,0 +1,26 @@
+* {
+    font-size: 32px;
+}
+
+body {
+    background-color: rgb(207, 204, 204);
+}
+
+.input_form {
+    text-align: center;
+    margin: 100px;
+    padding: 0px;
+}
+
+
+.table {
+    margin: auto;
+    border: 0px;
+    padding: 0px;
+}
+
+.table td {
+    width: 16px;
+    padding: 0px;
+    margin: 0px;
+}
